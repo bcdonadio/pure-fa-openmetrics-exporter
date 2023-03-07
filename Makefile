@@ -6,7 +6,7 @@ BINARY_NAME=pure-fa-om-exporter
 MODULE_NAME=purestorage/fa-openmetrics-exporter
 VERSION?=1.0.5
 SERVICE_PORT?=9490
-DOCKER_REGISTRY?= quay.io/purestorage/
+DOCKER_REGISTRY?= docker.io/bcdonadio/
 EXPORT_RESULT?=false # for CI please set EXPORT_RESULT to true
 
 GREEN  := $(shell tput -Txterm setaf 2)
